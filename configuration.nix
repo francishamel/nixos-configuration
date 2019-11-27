@@ -14,6 +14,7 @@
     ./virtualbox.nix
     ./wireshark.nix
     ./xserver.nix
+    ./zsh.nix
   ];
 
   nixpkgs.config.allowUnfree = true;
