@@ -4,6 +4,7 @@
   imports = [
     ./boot.nix
     ./docker.nix
+    ./fonts.nix
     ./hardware.nix
     ./hardware-configuration.nix
     ./i18n.nix
