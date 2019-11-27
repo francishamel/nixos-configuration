@@ -12,6 +12,7 @@
     ./redshift.nix
     ./user.nix
     ./virtualbox.nix
+    ./wireshark.nix
     ./xserver.nix
   ];
 
