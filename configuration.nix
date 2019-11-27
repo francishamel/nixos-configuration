@@ -10,6 +10,7 @@
     ./networking.nix
     ./redshift.nix
     ./user.nix
+    ./virtualbox.nix
     ./xserver.nix
   ];
 
