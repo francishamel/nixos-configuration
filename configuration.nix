@@ -8,6 +8,7 @@
     ./hardware.nix
     ./hardware-configuration.nix
     ./i18n.nix
+    ./lorri.nix
     ./networking.nix
     ./redshift.nix
     ./user.nix
@@ -20,6 +21,7 @@
 
   environment.systemPackages = with pkgs; [
     curl
+    direnv
     firefox
     git
     htop
