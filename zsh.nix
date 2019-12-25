@@ -4,6 +4,10 @@
   programs.zsh = {
     enable = true;
 
+    interactiveShellInit = ''
+      eval "$(direnv hook zsh)"
+    '';
+
     ohMyZsh = {
       enable = true;
 
