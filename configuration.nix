@@ -21,12 +21,17 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
+    burpsuite
     curl
     direnv
+    discord
     firefox
     git
+    gwenview
     htop
-    nox
+    keepassxc
+    slack
+    vscode
   ];
 
   programs.tmux.enable = true;
