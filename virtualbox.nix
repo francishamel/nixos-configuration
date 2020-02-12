@@ -1,7 +1,7 @@
 { ... }:
 
 {
-  users.extraUsers.francis.extraGroups = [ "vboxusers" ];
+  users.extraGroups.vboxusers.members = [ "francis" ];
 
   virtualisation.virtualbox.host = {
     enable = true;

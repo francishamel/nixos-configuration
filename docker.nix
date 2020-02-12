@@ -1,7 +1,7 @@
 { ... }:
 
 {
-  users.extraUsers.francis.extraGroups = [ "docker" ];
+  users.extraGroups.docker.members = [ "francis" ];
     
   virtualisation.docker = {
     autoPrune.enable = true;

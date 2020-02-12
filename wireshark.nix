@@ -7,5 +7,5 @@
     package = pkgs.wireshark;
   };
 
-  users.extraUsers.francis.extraGroups = [ "wireshark" ];
+  users.extraGroups.wireshark.members = [ "francis" ];
 }
