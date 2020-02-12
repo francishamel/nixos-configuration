@@ -30,6 +30,7 @@
     gwenview
     htop
     keepassxc
+    okular
     slack
     vscode
   ];
