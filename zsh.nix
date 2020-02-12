@@ -14,6 +14,7 @@
       plugins = [
         "docker"
         "git"
+        "sudo"
       ];
 
       theme = "agnoster";
