@@ -14,6 +14,7 @@
     ./user.nix
     ./virtualbox.nix
     ./wireshark.nix
+    # ./vscode.nix
     ./xserver.nix
     ./zsh.nix
   ];
