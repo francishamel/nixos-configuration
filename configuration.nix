@@ -26,6 +26,7 @@
     curl
     direnv
     discord
+    docker-compose
     firefox
     git
     gwenview
