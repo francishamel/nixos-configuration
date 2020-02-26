@@ -31,6 +31,7 @@
     git
     gwenview
     htop
+    kcalc
     keepassxc
     okular
     slack
