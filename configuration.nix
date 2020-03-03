@@ -20,6 +20,7 @@
   ];
 
   nixpkgs.config.allowUnfree = true;
+  nixpkgs.config.firefox.enablePlasmaBrowserIntegration = true;
 
   environment.systemPackages = with pkgs; [
     burpsuite
@@ -34,6 +35,7 @@
     kcalc
     keepassxc
     okular
+    plasma-browser-integration
     slack
     vscode
   ];
