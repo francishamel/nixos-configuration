@@ -37,6 +37,7 @@
     okular
     plasma-browser-integration
     slack
+    tree
     vscode
   ];
 
