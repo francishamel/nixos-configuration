@@ -19,8 +19,11 @@
     ./zsh.nix
   ];
 
-  nixpkgs.config.allowUnfree = true;
-  nixpkgs.config.firefox.enablePlasmaBrowserIntegration = true;
+  nixpkgs.config = {
+    allowUnfree = true;
+
+    firefox.enablePlasmaBrowserIntegration = true;
+  };
 
   environment.systemPackages = with pkgs; [
     burpsuite
@@ -41,8 +44,11 @@
     vscode
   ];
 
-  programs.tmux.enable = true;
-  programs.vim.defaultEditor = true;
+  programs = {
+    tmux.enable = true;
+
+    vim.defaultEditor = true;
+  };
   
   system.stateVersion = "19.09";
 }
