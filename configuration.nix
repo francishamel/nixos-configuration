@@ -21,7 +21,7 @@
 
   nixpkgs.config = {
     allowUnfree = true;
-
+    
     firefox.enablePlasmaBrowserIntegration = true;
   };
 
@@ -32,6 +32,7 @@
     discord
     docker-compose
     firefox
+    fzf
     git
     gwenview
     htop
