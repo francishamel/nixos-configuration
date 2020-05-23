@@ -40,9 +40,13 @@
     keepassxc
     okular
     plasma-browser-integration
+    runelite
     slack
+    spectacle
     tree
+    unzip
     vscode
+    zip
   ];
 
   programs = {
