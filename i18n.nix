@@ -1,7 +1,7 @@
 { ... }:
 
 {
-  i18n.consoleUseXkbConfig = true;
+  console.useXkbConfig = true;
   
   location.provider = "geoclue2";
 
