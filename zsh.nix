@@ -15,11 +15,7 @@
     ohMyZsh = {
       enable = true;
 
-      plugins = [
-        "docker"
-        "git"
-        "sudo"
-      ];
+      plugins = [ "docker" "git" "sudo" ];
 
       theme = "agnoster";
     };

@@ -1,8 +1,5 @@
 { pkgs, ... }:
 
 {
-  fonts.fonts = with pkgs; [
-    fira-code
-    fira-code-symbols
-  ];
+  fonts.fonts = with pkgs; [ fira-code fira-code-symbols ];
 }

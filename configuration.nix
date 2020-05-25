@@ -21,7 +21,7 @@
 
   nixpkgs.config = {
     allowUnfree = true;
-    
+
     firefox.enablePlasmaBrowserIntegration = true;
   };
 
@@ -54,6 +54,6 @@
 
     vim.defaultEditor = true;
   };
-  
+
   system.stateVersion = "20.03";
 }
