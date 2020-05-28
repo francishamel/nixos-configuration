@@ -4,56 +4,23 @@
   imports = [
     ./boot.nix
     ./docker.nix
-    ./fonts.nix
-    ./hardware.nix
     ./hardware-configuration.nix
-    ./i18n.nix
-    ./lorri.nix
+    ./hardware.nix
     ./networking.nix
-    ./redshift.nix
     ./user.nix
     ./virtualbox.nix
-    ./wireshark.nix
-    # ./vscode.nix
     ./xserver.nix
-    ./zsh.nix
   ];
 
-  nixpkgs.config = {
-    allowUnfree = true;
+  nixpkgs.config.allowUnfree = true;
 
-    firefox.enablePlasmaBrowserIntegration = true;
-  };
+  console.useXkbConfig = true;
 
-  environment.systemPackages = with pkgs; [
-    burpsuite
-    curl
-    direnv
-    discord
-    docker-compose
-    firefox
-    fzf
-    git
-    gwenview
-    htop
-    kcalc
-    keepassxc
-    okular
-    plasma-browser-integration
-    runelite
-    slack
-    spectacle
-    tree
-    unzip
-    vscode
-    zip
-  ];
+  location.provider = "geoclue2";
 
-  programs = {
-    tmux.enable = true;
+  services.xserver.layout = "ca";
 
-    vim.defaultEditor = true;
-  };
+  time.timeZone = "America/Montreal";
 
   system.stateVersion = "20.03";
 }
