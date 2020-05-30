@@ -1,5 +1,3 @@
-{ ... }:
-
 {
   users.extraGroups.vboxusers.members = [ "francis" ];
 

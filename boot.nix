@@ -1,5 +1,3 @@
-{ ... }:
-
 {
   boot.initrd.luks.devices = {
     root = {

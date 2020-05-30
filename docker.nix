@@ -1,5 +1,3 @@
-{ ... }:
-
 {
   users.extraGroups.docker.members = [ "francis" ];
 
