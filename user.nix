@@ -38,8 +38,9 @@
       nixfmt
 
       # KDE apps
-      kcalc
       gwenview
+      kcalc
+      kdeApplications.okteta
       okular
       spectacle
     ];
