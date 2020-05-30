@@ -37,6 +37,11 @@
       # Dev tools
       nixfmt
 
+      # Utilities
+      unrar
+      unzip
+      zip
+
       # KDE apps
       gwenview
       kcalc
