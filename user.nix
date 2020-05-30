@@ -109,12 +109,37 @@
       vscode = {
         enable = true;
 
+        extensions = (with pkgs.vscode-extensions; [
+          bbenoist.Nix
+          ms-azuretools.vscode-docker
+        ]) ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+          {
+            name = "gitlens";
+            publisher = "eamodio";
+            version = "10.2.1";
+            sha256 = "1bh6ws20yi757b4im5aa6zcjmsgdqxvr1rg86kfa638cd5ad1f97";
+          }
+          {
+            name = "material-icon-theme";
+            publisher = "PKief";
+            version = "4.1.0";
+            sha256 = "00alw214i2iibaqrm1njvb13bb41z3rvgy1akyq8fxvz35vq5a2s";
+          }
+          {
+            name = "nixfmt-vscode";
+            publisher = "brettm12345";
+            version = "0.0.1";
+            sha256 = "07w35c69vk1l6vipnq3qfack36qcszqxn8j3v332bl0w6m02aa7k";
+          }
+        ];
+
         userSettings = {
           "editor.minimap.enabled" = false;
           "editor.tabSize" = 2;
           "telemetry.enableCrashReporter" = false;
           "telemetry.enableTelemetry" = false;
           "workbench.colorTheme" = "Solarized Dark";
+          "workbench.iconTheme" = "material-icon-theme";
         };
       };
 
