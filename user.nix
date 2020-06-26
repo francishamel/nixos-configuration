@@ -121,6 +121,12 @@
           ms-azuretools.vscode-docker
         ]) ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
           {
+            name = "elixir-ls";
+            publisher = "JakeBecker";
+            version = "0.4.0";
+            sha256 = "070yfwwdrjkij4g3zhdryfzmsq75yf3pxrp4r7nxxavywh485859";
+          }
+          {
             name = "gitlens";
             publisher = "eamodio";
             version = "10.2.1";
