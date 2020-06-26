@@ -35,6 +35,7 @@
       slack
 
       # Dev tools
+      direnv
       nixfmt
 
       # Utilities
@@ -161,7 +162,10 @@
 
         enable = true;
 
-        initExtra = "prompt_context(){}";
+        initExtra = ''
+          prompt_context(){}
+          eval "$(direnv hook zsh)"
+        '';
 
         oh-my-zsh = {
           enable = true;
@@ -172,5 +176,7 @@
         };
       };
     };
+
+    services = { lorri.enable = true; };
   };
 }
