@@ -155,6 +155,7 @@
           "telemetry.enableTelemetry" = false;
           "workbench.colorTheme" = "Solarized Dark";
           "workbench.iconTheme" = "material-icon-theme";
+          "git.confirmSync" = false;
         };
       };
 
