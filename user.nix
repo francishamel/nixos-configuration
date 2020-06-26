@@ -36,6 +36,7 @@
 
       # Dev tools
       direnv
+      niv
       nixfmt
 
       # Utilities
