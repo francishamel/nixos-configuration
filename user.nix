@@ -172,7 +172,7 @@
         oh-my-zsh = {
           enable = true;
 
-          plugins = [ "docker" "git" "sudo" ];
+          plugins = [ "sudo" ];
 
           theme = "agnoster";
         };
