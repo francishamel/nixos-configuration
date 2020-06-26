@@ -7,7 +7,7 @@
     users.francis = {
       createHome = true;
 
-      extraGroups = [ "audio" "networkmanager" "video" "wheel" ];
+      extraGroups = [ "audio" "video" "wheel" ];
 
       isNormalUser = true;
 

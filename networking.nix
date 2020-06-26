@@ -20,4 +20,6 @@
 
     useDHCP = false;
   };
+
+  users.extraGroups.networkmanager.members = [ "francis" ];
 }
