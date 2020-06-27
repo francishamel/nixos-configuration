@@ -149,13 +149,15 @@
         ];
 
         userSettings = {
+          "editor.fontFamily" = "'Fira Code'";
+          "editor.fontLigatures" = true;
           "editor.minimap.enabled" = false;
           "editor.tabSize" = 2;
+          "git.confirmSync" = false;
           "telemetry.enableCrashReporter" = false;
           "telemetry.enableTelemetry" = false;
           "workbench.colorTheme" = "Solarized Dark";
           "workbench.iconTheme" = "material-icon-theme";
-          "git.confirmSync" = false;
         };
       };
 
