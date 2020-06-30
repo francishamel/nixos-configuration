@@ -153,6 +153,8 @@
           "editor.fontLigatures" = true;
           "editor.minimap.enabled" = false;
           "editor.tabSize" = 2;
+          "elixirLS.dialyzerEnabled" = false;
+          "elixirLS.fetchDeps" = false;
           "git.confirmSync" = false;
           "telemetry.enableCrashReporter" = false;
           "telemetry.enableTelemetry" = false;
