@@ -49,7 +49,6 @@
       kcalc
       kdeApplications.okteta
       okular
-      rsibreak
       spectacle
     ];
 
