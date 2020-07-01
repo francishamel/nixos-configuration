@@ -181,7 +181,5 @@
         };
       };
     };
-
-    services = { lorri.enable = true; };
   };
 }
