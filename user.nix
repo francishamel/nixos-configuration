@@ -145,6 +145,30 @@
             version = "0.0.1";
             sha256 = "07w35c69vk1l6vipnq3qfack36qcszqxn8j3v332bl0w6m02aa7k";
           }
+          {
+            name = "foam-vscode";
+            publisher = "foam";
+            version = "0.1.7";
+            sha256 = "0rrxfxmkf0szjmgc1dxhca1zgr0jnjmyinjm19i6ja82hpxzam01";
+          }
+          {
+            name = "vscode-markdown-notes";
+            publisher = "kortina";
+            version = "0.0.10";
+            sha256 = "0p639ahfaff3v1c1kqw6kd797q9yds98a534yjq0fbgpzc3w88q8";
+          }
+          {
+            name = "markdown-links";
+            publisher = "tchayen";
+            version = "0.6.0";
+            sha256 = "178l8da0yg53lw47kbxb100qwxzp3pvks7riw1i6ki9gm78zpfds";
+          }
+          {
+            name = "markdown-all-in-one";
+            publisher = "yzhang";
+            version = "3.1.0";
+            sha256 = "0b5fqwaxbdqpqx53gxjjfawghwrpbj9zmbvsw5wamn1jx3djgflk";
+          }
         ];
 
         userSettings = {
