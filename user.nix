@@ -30,9 +30,10 @@
       gobuster
       nmap
 
-      # Communication
+      # Apps
       discord
       slack
+      spotify
 
       # Dev tools
       direnv
