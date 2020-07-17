@@ -108,10 +108,13 @@
 
       git = {
         enable = true;
-
         userEmail = "francishamel96@gmail.com";
-
         userName = "Francis Hamel";
+
+        extraConfig = {
+          pull.rebase = true;
+          rebase.autoStash = true;
+        };
       };
 
       vscode = {
