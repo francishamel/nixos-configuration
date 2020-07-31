@@ -113,6 +113,7 @@
         userName = "Francis Hamel";
 
         extraConfig = {
+          core.editor = "code --wait";
           pull.rebase = true;
           rebase.autoStash = true;
         };
