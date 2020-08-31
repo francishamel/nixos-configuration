@@ -34,6 +34,7 @@
       discord
       slack
       spotify
+      teams
 
       # Dev tools
       direnv
