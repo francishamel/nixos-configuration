@@ -42,6 +42,7 @@
       nixfmt
 
       # Utilities
+      htop
       unrar
       unzip
       zip
