@@ -1,4 +1,8 @@
 {
+  boot.extraModprobeConfig = ''
+  options iwlwifi 11n_disable=8
+  '';
+
   boot.initrd.luks.devices = {
     root = {
       device = "/dev/disk/by-uuid/c8a8feeb-8b41-4d18-8e13-a797e94b4f2c";
