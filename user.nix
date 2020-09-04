@@ -38,6 +38,7 @@
 
       # Dev tools
       direnv
+      dive
       niv
       nixfmt
 
