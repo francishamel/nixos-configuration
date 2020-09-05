@@ -37,6 +37,7 @@
       teams
 
       # Dev tools
+      docker-compose
       direnv
       dive
       niv
