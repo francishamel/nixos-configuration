@@ -187,6 +187,7 @@
           "editor.tabSize" = 2;
           "elixirLS.dialyzerEnabled" = false;
           "elixirLS.fetchDeps" = false;
+          "files.insertFinalNewline" = false;
           "git.confirmSync" = false;
           "telemetry.enableCrashReporter" = false;
           "telemetry.enableTelemetry" = false;
