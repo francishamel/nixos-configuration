@@ -1,7 +1,9 @@
-{
-  boot.extraModprobeConfig = ''
-  options iwlwifi 11n_disable=8
-  '';
+{ config, pkgs, ... }:
+let
+  unstable = import <nixos-unstable> { config = { allowUnfree = true; }; };
+in {
+  boot.kernelPackages = with pkgs; unstable.linuxPackages;
+  boot.extraModulePackages = [ config.boot.kernelPackages.rtl8192eu ];
 
   boot.initrd.luks.devices = {
     root = {

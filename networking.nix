@@ -16,6 +16,7 @@
 
     interfaces.enp0s25.useDHCP = true;
     interfaces.wlp3s0.useDHCP = true;
+    interfaces.wlp0s29u1u2.useDHCP = true;
 
     networkmanager = {
       enable = true;
