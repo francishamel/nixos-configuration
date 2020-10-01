@@ -8,8 +8,11 @@
         to = 8050;
       }];
 
-      # See https://nixos.wiki/wiki/Spotify for infos on port 57621
-      allowedTCPPorts = [ 57621 ];
+      
+      allowedTCPPorts = [
+        2375  # Docker deamon
+        57621 # See https://nixos.wiki/wiki/Spotify for infos
+      ];
     };
 
     hostName = "nixos-T420";
@@ -26,5 +29,7 @@
     useDHCP = false;
   };
 
+  services.sshd.enable = true;
+  
   users.extraGroups.networkmanager.members = [ "francis" ];
 }
