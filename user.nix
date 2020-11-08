@@ -214,6 +214,11 @@
 
           theme = "agnoster";
         };
+
+        shellAliases = {
+          ll = "ls -la";
+          ".." = "cd ..";
+        };
       };
     };
   };
