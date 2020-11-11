@@ -38,7 +38,6 @@
 
       # Dev tools
       docker-compose
-      direnv
       dive
       niv
       nixfmt
@@ -106,6 +105,11 @@
             title = "Alacritty";
           };
         };
+      };
+
+      direnv = {
+        enable = true;
+        enableNixDirenvIntegration = true;
       };
 
       firefox.enable = true;
@@ -179,7 +183,6 @@
 
         initExtra = ''
           prompt_context(){}
-          eval "$(direnv hook zsh)"
         '';
 
         oh-my-zsh = {
