@@ -96,13 +96,12 @@
             };
           };
 
-          dynamic_title = false;
-
           env.TERM = "alacritty";
 
           font.size = 8.0;
 
           window = {
+            dynamic_title = false;
             startup_mode = "Maximized";
             title = "Alacritty";
           };
