@@ -43,7 +43,6 @@
       nixfmt
 
       # Utilities
-      htop
       unrar
       unzip
       zip
@@ -124,6 +123,12 @@
           pull.rebase = true;
           rebase.autoStash = true;
         };
+      };
+
+      htop = {
+        enable = true;
+        enableMouse = true;
+        treeView = true;
       };
 
       vscode = {
