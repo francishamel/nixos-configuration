@@ -52,7 +52,7 @@
       # KDE apps
       gwenview
       kcalc
-      kdeApplications.okteta
+      okteta
       okular
       spectacle
     ];
