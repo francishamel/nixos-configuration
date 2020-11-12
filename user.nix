@@ -205,6 +205,13 @@
         shellAliases = {
           ll = "ls -la";
           ".." = "cd ..";
+          edit-config = "code /etc/nixos";
+          rebuild-config = "sudo nixos-rebuild switch";
+
+          # Safety nets
+          cp = "cp -i";
+          mv = "mv -i";
+          rm = "rm -I --preserve-root";
         };
       };
     };
