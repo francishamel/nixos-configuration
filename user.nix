@@ -141,20 +141,20 @@
           {
             name = "elixir-ls";
             publisher = "JakeBecker";
-            version = "0.4.0";
-            sha256 = "070yfwwdrjkij4g3zhdryfzmsq75yf3pxrp4r7nxxavywh485859";
+            version = "0.6.1";
+            sha256 = "1rrbn4vyx033jcbgqhfpqjqahr3qljawljzal8j73kk0z12kqglf";
           }
           {
             name = "gitlens";
             publisher = "eamodio";
-            version = "10.2.1";
-            sha256 = "1bh6ws20yi757b4im5aa6zcjmsgdqxvr1rg86kfa638cd5ad1f97";
+            version = "10.2.3";
+            sha256 = "00pddp8jlmqmc9c50vwm6bnkwg9gvvfn8mvrz1l9fl1w88ia1nz0";
           }
           {
             name = "material-icon-theme";
             publisher = "PKief";
-            version = "4.1.0";
-            sha256 = "00alw214i2iibaqrm1njvb13bb41z3rvgy1akyq8fxvz35vq5a2s";
+            version = "4.4.0";
+            sha256 = "1m9mis59j9xnf1zvh67p5rhayaa9qxjiw9iw847nyl9vsy73w8ya";
           }
           {
             name = "nixfmt-vscode";
@@ -172,6 +172,7 @@
           "editor.tabSize" = 2;
           "elixirLS.dialyzerEnabled" = false;
           "elixirLS.fetchDeps" = false;
+          "extensions.autoUpdate" = false;
           "files.insertFinalNewline" = true;
           "git.confirmSync" = false;
           "telemetry.enableCrashReporter" = false;
