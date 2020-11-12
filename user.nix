@@ -137,6 +137,7 @@
         extensions = (with pkgs.vscode-extensions; [
           bbenoist.Nix
           ms-azuretools.vscode-docker
+          ms-python.python
         ]) ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
           {
             name = "elixir-ls";
