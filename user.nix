@@ -125,6 +125,8 @@
         };
       };
 
+      home-manager.enable = true;
+
       htop = {
         enable = true;
         enableMouse = true;
