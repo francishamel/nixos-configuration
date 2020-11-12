@@ -1,8 +1,6 @@
-{ config, pkgs, ... }:
-let
-  unstable = import <nixos-unstable> { config = { allowUnfree = true; }; };
-in {
-  boot.kernelPackages = with pkgs; unstable.linuxPackages;
+{ config, ... }:
+
+{
   boot.extraModulePackages = [ config.boot.kernelPackages.rtl8192eu ];
 
   boot.initrd.luks.devices = {
