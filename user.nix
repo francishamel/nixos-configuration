@@ -106,6 +106,8 @@
         };
       };
 
+      dircolors.enable = true;
+
       direnv = {
         enable = true;
         enableNixDirenvIntegration = true;
@@ -195,6 +197,7 @@
         oh-my-zsh.enable = true;
 
         shellAliases = {
+          ls = "ls --color=auto";
           ll = "ls -la";
           ".." = "cd ..";
           edit-config = "code /etc/nixos";
