@@ -133,6 +133,8 @@
         treeView = true;
       };
 
+      starship.enable = true;
+
       vscode = {
         enable = true;
 
@@ -190,17 +192,7 @@
 
         enable = true;
 
-        initExtra = ''
-          prompt_context(){}
-        '';
-
-        oh-my-zsh = {
-          enable = true;
-
-          plugins = [ "sudo" ];
-
-          theme = "agnoster";
-        };
+        oh-my-zsh.enable = true;
 
         shellAliases = {
           ll = "ls -la";
