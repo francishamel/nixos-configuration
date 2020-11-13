@@ -41,6 +41,7 @@
       dive
       niv
       nixfmt
+      openconnect
 
       # Utilities
       unrar
