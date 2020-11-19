@@ -176,7 +176,7 @@
 
         userSettings = {
           "diffEditor.ignoreTrimWhitespace" = false;
-          "editor.fontFamily" = "'Fira Code'";
+          "editor.fontFamily" = "'FiraCode Nerd Font'";
           "editor.fontLigatures" = true;
           "editor.minimap.enabled" = false;
           "editor.tabSize" = 2;
