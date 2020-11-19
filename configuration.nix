@@ -19,6 +19,8 @@
 
   location.provider = "geoclue2";
 
+  services.sshd.enable = true;
+
   services.xserver.layout = "ca";
 
   time.timeZone = "America/Montreal";
