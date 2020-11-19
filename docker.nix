@@ -5,9 +5,5 @@
     autoPrune.enable = true;
 
     enable = true;
-
-    extraOptions = ''
-      -H=tcp://0.0.0.0:2375
-    '';
   };
 }
