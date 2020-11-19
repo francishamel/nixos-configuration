@@ -136,6 +136,8 @@
         treeView = true;
       };
 
+      lsd.enable = true;
+
       starship.enable = true;
 
       vscode = {
@@ -209,7 +211,7 @@
         '';
 
         shellAliases = {
-          ls = "ls --color=auto";
+          ls = "lsd";
           ll = "ls -la";
           ".." = "cd ..";
           edit-config = "code /etc/nixos";
