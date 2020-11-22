@@ -107,6 +107,19 @@
         };
       };
 
+      bat = {
+        enable = true;
+
+        themes = {
+          solarized = builtins.readFile (pkgs.fetchFromGitHub {
+            owner = "braver";
+            repo = "Solarized";
+            rev = "87e01090cf5fb821a234265b3138426ae84900e7";
+            sha256 = "01q2hn7rwccjcpgxl3xl7qrfrryhajmlkfv3mci6fbdgxnpvrg5w";
+          } + "/Solarized (dark).tmTheme");
+        };
+      };
+
       dircolors.enable = true;
 
       direnv = {
