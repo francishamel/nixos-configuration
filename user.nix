@@ -117,15 +117,22 @@
       firefox.enable = true;
 
       git = {
+        aliases = {
+          co = "checkout";
+          cob = "co -b";
+          f = "fetch --prune";
+        };
+
         enable = true;
-        userEmail = "francishamel96@gmail.com";
-        userName = "Francis Hamel";
 
         extraConfig = {
           core.editor = "code --wait";
           pull.rebase = true;
           rebase.autoStash = true;
         };
+
+        userEmail = "francishamel96@gmail.com";
+        userName = "Francis Hamel";
       };
 
       home-manager.enable = true;
