@@ -217,7 +217,11 @@
 
         enable = true;
 
-        oh-my-zsh.enable = true;
+        oh-my-zsh = {
+          enable = true;
+
+          plugins = [ "sudo" ];
+        };
 
         shellAliases = {
           ls = "lsd";
