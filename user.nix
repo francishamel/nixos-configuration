@@ -97,7 +97,7 @@
 
           env.TERM = "alacritty";
 
-          font.size = 8.0;
+          font.size = 10.0;
 
           window = {
             dynamic_title = false;
