@@ -156,6 +156,8 @@
         treeView = true;
       };
 
+      jq.enable = true;
+
       lsd.enable = true;
 
       starship.enable = true;
