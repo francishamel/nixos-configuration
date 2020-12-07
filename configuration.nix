@@ -11,6 +11,8 @@
     ./xserver.nix
   ];
 
+  nix.autoOptimiseStore = true;
+
   nixpkgs.config.allowUnfree = true;
 
   console.useXkbConfig = true;
