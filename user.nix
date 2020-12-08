@@ -127,6 +127,16 @@
         enableNixDirenvIntegration = true;
       };
 
+      emacs = {
+        enable = true;
+        package = pkgs.emacsGit;
+        extraPackages = (epkgs: ((with epkgs; [
+          doom-modeline
+          doom-themes
+          use-package
+        ])));
+      };
+
       firefox.enable = true;
 
       git = {
@@ -237,6 +247,13 @@
           mv = "mv -i";
           rm = "rm -I --preserve-root";
         };
+      };
+    };
+
+    home.file = {
+      ".emacs.d" = {
+        source = ./emacs;
+        recursive = true;
       };
     };
   };
