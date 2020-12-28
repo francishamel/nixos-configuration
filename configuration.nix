@@ -39,7 +39,10 @@
 
   services.sshd.enable = true;
 
-  services.xserver.layout = "ca";
+  services.xserver = {
+    layout = "ca";
+    xkbOptions = "ctrl:swapcaps";
+  };
 
   time.timeZone = "America/Montreal";
 
