@@ -7,6 +7,8 @@
 
 (setq visible-bell t)             ; Enable visible bell
 
+(set-face-attribute 'default nil :font "Fira Code Nerd Font" :height 120)
+
 (use-package doom-modeline
   :ensure t
   :init (doom-modeline-mode 1))
