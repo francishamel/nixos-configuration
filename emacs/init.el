@@ -9,6 +9,19 @@
 
 (set-face-attribute 'default nil :font "Fira Code Nerd Font" :height 120)
 
+;; Show column number in the modeline
+(column-number-mode)
+
+;; Enable line numbers
+(global-display-line-numbers-mode t)
+
+;; Disable line numbers for certain modes
+(dolist (mode '(org-mode-hook
+                term-mode-hook
+                shell-mode-hook
+                eshell-mode-hook))
+  (add-hook mode (lambda () (display-line-numbers-mode 0))))
+
 (use-package doom-modeline
   :ensure t
   :init (doom-modeline-mode 1))
@@ -25,3 +38,18 @@
   
   ;; Corrects (and improves) org-mode's native fontification.
   (doom-themes-org-config))
+
+(use-package rainbow-delimiters
+  :hook (prog-mode . rainbow-delimiters-mode))
+
+(use-package which-key
+  :init (which-key-mode)
+  :diminish which-key-mode
+  :config
+  (setq which-key-idle-delay 0))
+
+; TODO setup ivy + ivy-rich
+; TODO setup counsel
+; TODO setup helpful
+; TODO setup general (keybindings)
+; TODO setup hydra

@@ -133,7 +133,9 @@
         extraPackages = (epkgs: ((with epkgs; [
           doom-modeline
           doom-themes
+          rainbow-delimiters
           use-package
+          which-key
         ])));
       };
 
