@@ -127,17 +127,17 @@
         enableNixDirenvIntegration = true;
       };
 
-      emacs = {
-        enable = true;
-        package = pkgs.emacsGit;
-        extraPackages = (epkgs: ((with epkgs; [
-          doom-modeline
-          doom-themes
-          rainbow-delimiters
-          use-package
-          which-key
-        ])));
-      };
+      # emacs = {
+      #   enable = true;
+      #   package = pkgs.emacsGit;
+      #   extraPackages = (epkgs: ((with epkgs; [
+      #     doom-modeline
+      #     doom-themes
+      #     rainbow-delimiters
+      #     use-package
+      #     which-key
+      #   ])));
+      # };
 
       firefox.enable = true;
 
@@ -253,11 +253,11 @@
       };
     };
 
-    home.file = {
-      ".emacs.d" = {
-        source = ./emacs;
-        recursive = true;
-      };
-    };
+    # home.file = {
+    #   ".emacs.d" = {
+    #     source = ./emacs;
+    #     recursive = true;
+    #   };
+    # };
   };
 }

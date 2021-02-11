@@ -22,8 +22,13 @@
                 eshell-mode-hook))
   (add-hook mode (lambda () (display-line-numbers-mode 0))))
 
+(use-package
+  :ensure nil ;; Org is included in Emacs.
+  :commands (org-mode
+             org-agenda
+             org-capture))
+
 (use-package doom-modeline
-  :ensure t
   :init (doom-modeline-mode 1))
 
 (use-package doom-themes
