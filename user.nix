@@ -186,20 +186,20 @@
           {
             name = "elixir-ls";
             publisher = "JakeBecker";
-            version = "0.6.1";
-            sha256 = "1rrbn4vyx033jcbgqhfpqjqahr3qljawljzal8j73kk0z12kqglf";
+            version = "0.6.5";
+            sha256 = "1j7qh0yah9an1s6316ylrx5mkxa1qx573nxddklwkf4xcf4nbfp0";
           }
           {
             name = "gitlens";
             publisher = "eamodio";
-            version = "10.2.3";
-            sha256 = "00pddp8jlmqmc9c50vwm6bnkwg9gvvfn8mvrz1l9fl1w88ia1nz0";
+            version = "11.2.1";
+            sha256 = "1ba72sr7mv9c0xzlqlxbv1x8p6jjvdjkkf7dn174v8b8345164v6";
           }
           {
             name = "material-icon-theme";
             publisher = "PKief";
-            version = "4.4.0";
-            sha256 = "1m9mis59j9xnf1zvh67p5rhayaa9qxjiw9iw847nyl9vsy73w8ya";
+            version = "4.5.0";
+            sha256 = "1mp069j9262ds7f9rx05lhvm85072bx4lyj5nicplmjwwwhf6jwl";
           }
           {
             name = "nixfmt-vscode";
