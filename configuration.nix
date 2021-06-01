@@ -1,7 +1,6 @@
 {
   imports = [
     ./boot.nix
-    ./cachix.nix
     ./docker.nix
     ./fonts.nix
     ./hardware-configuration.nix
@@ -22,16 +21,7 @@
     };
   };
 
-  nixpkgs = {
-    config.allowUnfree = true;
-
-    overlays = [
-      (import (builtins.fetchTarball {
-        url =
-          "https://github.com/nix-community/emacs-overlay/archive/master.tar.gz";
-      }))
-    ];
-  };
+  nixpkgs.config.allowUnfree = true;
 
   console.useXkbConfig = true;
 
