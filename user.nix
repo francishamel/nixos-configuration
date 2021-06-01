@@ -180,8 +180,8 @@
           {
             name = "gitlens";
             publisher = "eamodio";
-            version = "11.0.0";
-            sha256 = "02flbimyk5kz7p3k42vn64rwb3dscy1mdn1yvxqxg9jc4jkdaarf";
+            version = "11.0.6";
+            sha256 = "0qlaq7hn3m73rx9bmbzz3rc7khg0kw948z2j4rd8gdmmryy217yw";
           }
           {
             name = "material-icon-theme";
