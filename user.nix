@@ -153,8 +153,11 @@
 
       htop = {
         enable = true;
-        enableMouse = true;
-        treeView = true;
+
+        settings = {
+          enableMouse = true;
+          treeView = true;
+        };
       };
 
       jq.enable = true;
